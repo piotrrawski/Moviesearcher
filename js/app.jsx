@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router,
@@ -23,7 +22,6 @@ class TV extends React.Component {
             bla: "",
             test: "",
             test2: "",
-
         }
     }
 
@@ -61,7 +59,6 @@ class TV extends React.Component {
             bla: "",
         })
     }
-
 
     handleChange = (event) => {
         console.log('clickclick')
@@ -133,7 +130,6 @@ class TV extends React.Component {
                 img: data.tvShow.image_path,
                 // test: data.tvShow.pictures[3],
                 // test2: data.tvShow.countdown.season
-
             })
         })
         this.setState({
@@ -141,11 +137,8 @@ class TV extends React.Component {
         })
     }
 
-
-
     //render calej strony
     render() {
-
         return <div>
             <div className='main'>
                 <nav className="navbar navbar-dark bg-dark justify-content-between">
@@ -186,27 +179,21 @@ class TV extends React.Component {
                     </div>
                 </div>
                 <div className="container">
-
                     <Popular results={this.state.text} />
-
                     <div className="row">{this.state.results}</div>
                 </div>
             </div>
             <div>
-
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a className="navbar-brand" href="/">
-
                         TV SHOWS <i className="fa fa-television fa-1.5x" aria-hidden="true"></i>
-
                         <i className="fa fa-facebook-official" aria-hidden="true"></i>
                         <i className="fa fa-instagram" aria-hidden="true"></i>
                         <i className="fa fa-imdb" aria-hidden="true"></i>
                         <i className="fa fa-twitter-square" aria-hidden="true"></i>
                     </a>
-                    <a className="navbar-brand" href='https://github.com/piotrrawski'> <i className="fa fa-github" aria-hidden="true"></i></a>
+                    <a className="navbar-brand" href='https://github.com/piotrrawski'><i className="fa fa-github" aria-hidden="true"></i></a>
                 </nav>
-
             </div>
         </div>
     }
@@ -225,9 +212,6 @@ class Popular extends React.Component {
         }
     }
 }
-
-
-
 
 
 class App extends React.Component {

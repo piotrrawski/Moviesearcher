@@ -14143,7 +14143,6 @@ var TV = function (_React$Component) {
                     img: data.tvShow.image_path
                     // test: data.tvShow.pictures[3],
                     // test2: data.tvShow.countdown.season
-
                 });
             });
             _this.setState({
@@ -14162,7 +14161,6 @@ var TV = function (_React$Component) {
             bla: "",
             test: "",
             test2: ""
-
         };
         return _this;
     }
@@ -14244,7 +14242,6 @@ var TV = function (_React$Component) {
 
         //render calej strony
         value: function render() {
-
             return _react2.default.createElement(
                 'div',
                 null,
@@ -14374,7 +14371,6 @@ var TV = function (_React$Component) {
                         _react2.default.createElement(
                             'a',
                             { className: 'navbar-brand', href: 'https://github.com/piotrrawski' },
-                            ' ',
                             _react2.default.createElement('i', { className: 'fa fa-github', 'aria-hidden': 'true' })
                         )
                     )
