@@ -203,9 +203,8 @@ class TV extends React.Component {
                         <i className="fa fa-instagram" aria-hidden="true"></i>
                         <i className="fa fa-imdb" aria-hidden="true"></i>
                         <i className="fa fa-twitter-square" aria-hidden="true"></i>
-
                     </a>
-
+                    <a className="navbar-brand" href='https://github.com/piotrrawski'> <i className="fa fa-github" aria-hidden="true"></i></a>
                 </nav>
 
             </div>

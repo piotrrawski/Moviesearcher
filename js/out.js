@@ -14370,6 +14370,12 @@ var TV = function (_React$Component) {
                             _react2.default.createElement('i', { className: 'fa fa-instagram', 'aria-hidden': 'true' }),
                             _react2.default.createElement('i', { className: 'fa fa-imdb', 'aria-hidden': 'true' }),
                             _react2.default.createElement('i', { className: 'fa fa-twitter-square', 'aria-hidden': 'true' })
+                        ),
+                        _react2.default.createElement(
+                            'a',
+                            { className: 'navbar-brand', href: 'https://github.com/piotrrawski' },
+                            ' ',
+                            _react2.default.createElement('i', { className: 'fa fa-github', 'aria-hidden': 'true' })
                         )
                     )
                 )
