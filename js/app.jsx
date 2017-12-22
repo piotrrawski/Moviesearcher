@@ -34,7 +34,7 @@ class TV extends React.Component {
             .then(data => {
                 return this.setState({
                     results: data.tv_shows.map((el, index) => {
-                        return <div key={el.id} className="col-auto">#{index + 1}
+                        return <div key={el.id} className="col-12 col-md-12 col-lg-4">#{index + 1}
                             <div data-mov={el.id} className="card bg-secondary text-white" style={{width: 20 + 'rem'}}>
                                 <img onClick={this.handleSearchClick} className="card-img-top"
                                      src={el.image_thumbnail_path} style={{height: 25 + 'rem'}} alt="Card image cap"/>
@@ -93,7 +93,7 @@ class TV extends React.Component {
             .then(data => {
                 return this.setState({
                     results: data.tv_shows.map((el, index) => {
-                        return <div key={el.id} className="col-auto">
+                        return <div key={el.id} className="col-12 col-md-12 col-lg-4">
                             <div data-mov={el.id} className="card bg-secondary text-white" style={{width: 20 + 'rem'}}>
                                 <img onClick={this.handleSearchClick} className="card-img-top"
                                      src={el.image_thumbnail_path} style={{height: 25 + 'rem'}} alt="Card image cap"/>

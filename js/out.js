@@ -14095,7 +14095,7 @@ var TV = function (_React$Component) {
                     results: data.tv_shows.map(function (el, index) {
                         return _react2.default.createElement(
                             'div',
-                            { key: el.id, className: 'col-auto' },
+                            { key: el.id, className: 'col-12 col-md-12 col-lg-4' },
                             _react2.default.createElement(
                                 'div',
                                 { 'data-mov': el.id, className: 'card bg-secondary text-white', style: { width: 20 + 'rem' } },
@@ -14182,7 +14182,7 @@ var TV = function (_React$Component) {
                     results: data.tv_shows.map(function (el, index) {
                         return _react2.default.createElement(
                             'div',
-                            { key: el.id, className: 'col-auto' },
+                            { key: el.id, className: 'col-12 col-md-12 col-lg-4' },
                             '#',
                             index + 1,
                             _react2.default.createElement(
