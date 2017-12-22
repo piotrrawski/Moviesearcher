@@ -14279,7 +14279,15 @@ var TV = function (_React$Component) {
                         _react2.default.createElement(
                             'div',
                             { className: 'row' },
-                            _react2.default.createElement('div', { className: 'col-12', style: { height: 3 + 'rem' } })
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'col-12', style: { height: 7 + 'rem' } },
+                                _react2.default.createElement(
+                                    'p',
+                                    { style: { textAlign: 'center', fontSize: 5 + 'rem', color: 'grey', fontWeight: 900, marginBottom: 8 + 'rem' } },
+                                    'TV SHOWS'
+                                )
+                            )
                         ),
                         _react2.default.createElement(
                             'div',

@@ -160,7 +160,7 @@ class TV extends React.Component {
                 </nav>
                 < div className='container'>
                     <div className='row'>
-                        <div className='col-12' style={{height: 3 + 'rem'}}></div>
+                        <div className='col-12' style={{height: 7 + 'rem'}}><p style={{textAlign: 'center',fontSize: 5 + 'rem', color: 'grey', fontWeight: 900, marginBottom: 8 + 'rem'}}>TV SHOWS</p></div>
                     </div>
                     <div className='row justify-content-between'>
                         <div className='col-auto'>
