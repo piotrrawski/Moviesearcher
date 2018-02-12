@@ -1,3 +1,3 @@
 #Simple Tv-shows search
 
-https://piotrrawski.github.io/moviesearcher/
+https://piotrrawski.github.io/Moviesearcher/
